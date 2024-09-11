@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background-color: #ff3f6c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('E:\landing page\maxresdefault (1).jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 76, 139);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-shop-now {
+    background-color: #ff3f6c;
+    padding: 10px 30px;
+    color: rgb(254, 249, 252);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn-shop-now:hover {
+    background-color: #e03155;
+}
+
+/* Categories Section */
+.categories {
+    padding: 50px 10%;
+    background-color: rgb(189, 56, 141);
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-view-more {
+    text-decoration: none;
+    color: #ff3f6c;
+    font-size: 18px;
+}
+
+.btn-view-more:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+.promo-image {
+    width: 400%;
+    max-width: 600px; 
+    margin: 40px auto ; 
+    display: block; 
+}
