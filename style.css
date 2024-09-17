@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20230703/pngtree-3d-render-of-a-to-do-list-image_3789128.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-wrapper {
+    background: rgba(219, 186, 88, 0.9); /* semi-transparent off-white */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #f3ecec;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todo-list li:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+ 
